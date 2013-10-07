@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <otrs_config version="1.0" init="Framework">
       
-    <ConfigItem Name="ProductIcon" Required="1" Valid="1">
-        <Description Translatable="1">The icon file to be used as favicon (relative to Frontend::ImagePath).</Description>
-        <Group>KIX4OTRS</Group>
-        <SubGroup>Core::Web</SubGroup>
-        <Setting>
-            <String Regex="">icons/kix4otrs.ico</String>
-        </Setting>
-    </ConfigItem>
-
 </otrs_config>
